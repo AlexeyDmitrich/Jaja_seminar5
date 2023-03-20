@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40c65016-5d01-4bc2-bda2-0a03abf8aa8f" name="Changes" comment="Seminar5 complete">
-      <change afterPath="$PROJECT_DIR$/src/HomeTask1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HomeTask2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HomeTask3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PhoneBook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeTask1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeTask1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeTask2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeTask2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/input.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +49,14 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HomeTask3">
+  <component name="RunManager" selected="Application.HomeTask1">
+    <configuration name="HomeTask1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeTask1" />
+      <module name="seminar5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HomeTask3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HomeTask3" />
       <module name="seminar5" />
@@ -72,6 +80,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HomeTask1" />
         <item itemvalue="Application.HomeTask3" />
         <item itemvalue="Application.Task3" />
         <item itemvalue="Application.Task2" />
