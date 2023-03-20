@@ -13,6 +13,12 @@ public class input {
             return 0;
         }
     }
+
+    /**
+     * неуниверсальный метод захвата строки
+     * @param usersText
+     * @return
+     */
     public static String Str(String usersText){
         System.out.println(usersText);
         String value = input.next();

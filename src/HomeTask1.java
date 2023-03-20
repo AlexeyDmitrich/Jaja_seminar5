@@ -19,21 +19,38 @@ public class HomeTask1 {
 
     }
 
+    /**
+     * добавление контакта
+     * @param phoneBook
+     */
     public static void addContact (PhoneBook phoneBook){
         String abonent = input.Str("Введите имя абонента");
         long num = input.Long("Введите номер телефона");
         phoneBook.newContact(abonent, num);
     }
+
+    /**
+     * добавление номера контакту
+     * @param phoneBook
+     */
     public static void addNumber (PhoneBook phoneBook){
         String name = input.Str("Введите имя абонента");
         long num = input.Long("Введите номер телефона");
         phoneBook.addNumberToContact(name, num);
     }
 
+    /**
+     * демонстрация всей книги
+     * @param phoneBook
+     */
     public static void showAll (PhoneBook phoneBook){
         System.out.println(phoneBook.toString());
     }
 
+    /**
+     * меню
+     * @param phoneBook
+     */
     public static void menu (PhoneBook phoneBook){
         int choise = 5;
         while (choise != 0) {

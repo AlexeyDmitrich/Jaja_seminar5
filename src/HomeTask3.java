@@ -6,6 +6,11 @@ public class HomeTask3 {
 //0x000000
 //0000x000
 //00x00000
+
+    /**
+     * Основная загрузка мейна - это расчёт времени работы.
+     * @param args
+     */
     public static void main(String[] args) {
         int counter = 0;
         int workingTimeIter = 0;
@@ -22,6 +27,10 @@ public class HomeTask3 {
         System.out.printf("Среднее время работы: %d сек.", (workingTimeIter/counter)/1000);
     }
 
+    /**
+     * Изначально шел расчет на то, что будет добавляться первый ферзь вручную,
+     * но от этой идеи пока пришлось отказаться
+     */
     public static void init() {
         int size = 8;//input.Int("Задайте размер поля");
         printBoard(table(size));
@@ -34,6 +43,11 @@ public class HomeTask3 {
 
     }
 
+    /**
+     * Метод отрисовки поля за кадром
+     * @param size
+     * @return
+     */
     public static String[][] table(int size) {
         String[][] chessBoard = new String[size][size];
         for (int i = 0; i < chessBoard.length; i++) {
@@ -44,6 +58,10 @@ public class HomeTask3 {
         return chessBoard;
     }
 
+    /**
+     * метод отрисовки поля в кадре
+     * @param board
+     */
     public static void printBoard(String[][] board) {
         for (int x = 0; x < board.length; x++) {
             for (int y = 0; y < board[x].length; y++) {
@@ -53,6 +71,11 @@ public class HomeTask3 {
         }
         System.out.println();
     }
+
+    /**
+     * Ниже - ряд методов, от которых пришлось отказаться,
+     * так как не было найдено подходящего линейного алгоритма.
+     */
 
 //    public static String[][] topography(String[][] board) {
 //        String[][] filledBoardFirst = board;
@@ -95,6 +118,13 @@ public class HomeTask3 {
 //        return board;
 //    }
 
+    /**
+     * Метод случайной расстановки ферзей.
+     * когда возникает ситуация, в которой нет удачных постановок, но их сделано менее 8 -
+     * массив очищается и попытка расстановки повторяется.
+     * @param board
+     * @return
+     */
     public static String[][] rndQuin (String[][] board){
         String[][] fillBoard = board;
         Random rnd = new Random();
@@ -131,7 +161,7 @@ public class HomeTask3 {
      * @param board
      * @param x
      * @param y
-     * @return возвращает True если на поле можно поставить фигуру.
+     * @return возвращает True если на клетку можно поставить фигуру.
      */
     public static boolean freeCell (String[][] board, int x, int y){
         if (board[x][y].equals("x")) return false;

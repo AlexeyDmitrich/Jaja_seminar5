@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40c65016-5d01-4bc2-bda2-0a03abf8aa8f" name="Changes" comment="1st task complete">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeTask2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeTask2.java" afterDir="false" />
+    <list default="true" id="40c65016-5d01-4bc2-bda2-0a03abf8aa8f" name="Changes" comment="2nd task complete">
+      <change beforePath="$PROJECT_DIR$/src/HomeTask1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeTask1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeTask3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeTask3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PhoneBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PhoneBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/input.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,20 +116,28 @@
       <option name="project" value="LOCAL" />
       <updated>1679301237892</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2nd task complete">
+      <created>1679312063349</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679312063349</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Seminar5 complete" />
     <MESSAGE value="1st task complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="1st task complete" />
+    <MESSAGE value="2nd task complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="2nd task complete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/HomeTask3.java</url>
-          <line>62</line>
+          <line>85</line>
           <properties class="HomeTask3">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -136,7 +146,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/HomeTask3.java</url>
-          <line>97</line>
+          <line>127</line>
           <properties class="HomeTask3" method="rndQuin">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -145,22 +155,22 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/HomeTask3.java</url>
-          <line>74</line>
+          <line>97</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/HomeTask3.java</url>
-          <line>65</line>
+          <line>88</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/HomeTask3.java</url>
-          <line>101</line>
+          <line>131</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/HomeTask3.java</url>
-          <line>128</line>
+          <line>158</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>

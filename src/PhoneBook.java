@@ -5,6 +5,9 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
+/**
+ * Класс построен на Мапе
+ */
 public class PhoneBook {
     Map<String, Set> phoneBook;
 
@@ -12,6 +15,12 @@ public class PhoneBook {
         this.phoneBook = new HashMap<String, Set>();
     }
 
+    /**
+     * функция добавления нового абонента
+     * @param abonent
+     * @param number
+     * если абонент с таким именем есть - предложим добавить к нему номер или отменить операцию
+     */
     public void newContact (String abonent, long number){
         Set<Long> num = new HashSet<>();
         num.add(number);
@@ -36,6 +45,12 @@ public class PhoneBook {
         }
     }
 
+    /**
+     * функция добавления номера абоненту. конечно же, мы проверим, есть ли такой
+     * @param abonent
+     * @param newNumber
+     * если абонента еще нет - предложим его создать.
+     */
     public void addNumberToContact (String abonent, long newNumber){
         if (phoneBook.containsKey(abonent)) {
             Set nums = phoneBook.get(abonent);
@@ -52,12 +67,6 @@ public class PhoneBook {
                 case 0:
                     return;
             }
-        }
-    }
-
-    public void printAll (){
-        for (Map.Entry <String, Set> contact: phoneBook.entrySet()) {
-                System.out.printf("Имя: %s  Номера: %s \n", contact.getKey(), contact.getValue());
         }
     }
 
