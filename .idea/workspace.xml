@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40c65016-5d01-4bc2-bda2-0a03abf8aa8f" name="Changes" comment="Seminar5 complete">
-      <change afterPath="$PROJECT_DIR$/src/PhoneBook.java" afterDir="false" />
+    <list default="true" id="40c65016-5d01-4bc2-bda2-0a03abf8aa8f" name="Changes" comment="1st task complete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeTask1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeTask1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HomeTask2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeTask2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/input.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +45,16 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HomeTask1">
+  <component name="RunManager" selected="Application.HomeTask2">
     <configuration name="HomeTask1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HomeTask1" />
+      <module name="seminar5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeTask2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeTask2" />
       <module name="seminar5" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -80,6 +83,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HomeTask2" />
         <item itemvalue="Application.HomeTask1" />
         <item itemvalue="Application.HomeTask3" />
         <item itemvalue="Application.Task3" />
@@ -103,12 +107,20 @@
       <option name="project" value="LOCAL" />
       <updated>1679140440175</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1st task complete">
+      <created>1679301237892</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679301237892</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Seminar5 complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Seminar5 complete" />
+    <MESSAGE value="1st task complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="1st task complete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
